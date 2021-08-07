@@ -35,6 +35,8 @@ router.post('/', async (req, res) => {
             }
         }
 
+        res.json({ message: 'Upload feito com sucesso!'})
+        
         //CRIAR USUÁRIO
 
       } catch(err) {
