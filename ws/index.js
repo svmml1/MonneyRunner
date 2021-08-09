@@ -4,7 +4,7 @@ import cors from 'cors';
 import busboy from 'connect-busboy';
 import busboyBodyParser from 'busboy-body-parser';
 
-import userRoutes from './src/routes/user.routes'
+import userRoutes from './src/routes/user.routes.js'
 
 const app = express();
 

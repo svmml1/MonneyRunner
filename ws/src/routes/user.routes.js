@@ -5,7 +5,7 @@ import Busboy from 'busboy';
 import busboyBodyParser from 'busboy-body-parser';
 import mongoose from 'mongoose'
 
-import aws from '../services/aws'
+import aws from '../services/aws.js'
 
 const router = express.Router();
 
@@ -36,7 +36,7 @@ router.post('/', async (req, res) => {
         }
 
         res.json({ message: 'Upload feito com sucesso!'})
-        
+
         //CRIAR USUÁRIO
 
       } catch(err) {
