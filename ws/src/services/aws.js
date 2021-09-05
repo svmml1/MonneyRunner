@@ -1,10 +1,10 @@
 import AWS from 'aws-sdk';
 
 export default {
-  IAM_USER_KEY: 'AKIAW3GVMTF7JEDGAO3W',
-  IAM_USER_SECRET: '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',
+  IAM_USER_KEY: 'AKIAW3GVMTF7OESMFAF5',
+  IAM_USER_SECRET: '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',
   BUCKET_NAME: 'money-runners-sergio',
-  AWS_REGION: 'us-east-2',
+  AWS_REGION: 'us-east-1',
   uploadToS3: function (file, filename, acl = 'public-read') {
     return new Promise((resolve, reject) => {
       let IAM_USER_KEY = this.IAM_USER_KEY;

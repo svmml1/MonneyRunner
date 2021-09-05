@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
-const URI = '';
-
+const URI = 'mongodb+srv://money-runners:wFwXKhNzK790zu7O@dev.s8dma.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+//wFwXKhNzK790zu7O
 let options = {};
 
 mongoose.set('useNewUrlParser', true);
